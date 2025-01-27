@@ -1,0 +1,8 @@
+h1{color: blue;}
+.mm{height: 200px;width: 200px;
+    background-color: red;
+    /* margin: 200px 300px; */
+    margin: auto;
+}
+.nn{height: 50px; width: 50px;border: 2px solid blue; margin:auto;padding-top: 10px;}
+.vv{height: 200px; width: 200px; border: 2px solid yellow;padding-left: 40px; box-sizing: border-box;}

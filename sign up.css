@@ -1,0 +1,103 @@
+body{margin: 0%;
+padding: 0;
+background-color: rgba(9, 14, 26, 0.877);
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.container{display: flex;
+}
+.left{display: flex;
+    flex-grow: 2;
+    color: white;
+    height: 100vh;
+    
+    
+}
+.left1{width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 70px;
+    
+}
+   
+
+.right{flex-grow: 1;
+    display: flex;
+    background-color:transparent;
+    place-content: center;
+}
+.new{
+    background-color: white;
+    border-radius: 10px;
+width: 486px;
+height: 900px;padding: 0px 70px;
+margin-top: 50px;}
+
+.social{display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 7px;
+    }
+
+.social button{
+    width: 100%;
+    position: relative;
+    left: 7px;
+    border: none;
+    border: 1px solid rgba(151, 65, 65, 0.329);
+    text-align: left;
+    font-weight: 550;
+    background-color: transparent;
+    flex-shrink: 1;}
+.social button a{text-decoration: none;
+    color: black;padding-left: 20px;}    
+
+.left ul li{list-style-type: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 15px;position: relative;right: 40px;bottom: 10px;}
+
+.right .in{height: 50px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 17px;
+    
+    border: none;
+    border: 1px solid rgba(151, 65, 65, 0.329);
+    outline: none;
+    margin-left: 8px;
+}
+.right .in:focus{outline: 3px solid rgba(33, 68, 33, 0.767);}
+.social button{height: 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px;
+    
+cursor: pointer;}
+.box img{position: relative;
+    bottom: 400px;
+    left: 420px;
+    height: 510px;
+    width: 300px;
+z-index: -1;}    
+
+@media screen and (max-width:1100px){
+    .new{width:390px;overflow: hidden;padding-top: 0%;}
+    .left1{width: 350px;margin-left: 0%;
+
+
+}
+
+}
+@media screen and (max-width:950px){
+    .new{padding: 40;position: relative;right: 120px;margin-top: 0%;width: 300px;}
+    .left1{margin-left: 0%;position: relative;right: 50px;}
+}
+
+@media screen and (max-width:695px){
+    .new{width: 510px;position: relative;right: 523px;margin-top: 0%;padding: 0px 70px;}
+    .left{position: relative;top: 850px;}
+    .box{right: 100px;position: relative;}
+}
+
+

@@ -1,0 +1,100 @@
+body{box-sizing: border-box;
+padding: 0%;margin: 0%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.nav{background-color:white;
+    display: flex;
+    justify-content:space-between;
+    font-size: 19px;
+    padding: 8px;
+    align-items: center;margin-left: 30px;column-gap: 40px;
+}
+.g{text-decoration: none;
+    color: black;
+    background-color: white;
+    text-transform: capitalize;}
+.m:hover{background-color: #0080008e;
+    height: 37px;
+    padding-top: 5px;}
+.get:hover{background-color:skyblue ;
+    border-radius: 30px;}
+.space:hover{background-color: skyblue;
+    border-radius: 30px;}
+.plus:hover{background-color: skyblue;
+    border-radius: 30px;}
+.sign{background-color: #04aa6d;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    z-index: 2;
+color: white;}
+.log{background-color: aqua;
+    border-radius: 30px;
+    position: relative;
+    right: 10px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;}
+.log:hover{background-color: #04aa6d;color: white;}
+.second{height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;}
+.second a{text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    color: white;}
+    .second a:hover{background-color: rgb(48, 27, 27);}
+    .dropone{width: 300px;
+        height: 1000px;
+        background-color: #e7e9eb;
+        padding: 10px;
+        cursor: pointer;
+        overflow-y: scroll;
+        }
+    .dropone ul li{list-style-type: none;
+        font-size: 20px;
+        padding: 8px;text-transform: capitalize;}
+    .dropone ul li:hover{background-color: #42b0b852;}
+    .main1{display: flex;}
+    .droptwo .ht{position: relative;
+        top: 160px;
+        font-size: 45px;font-weight: 100;
+        left: 35px;}
+    .a1,.a2{background-color: #04aa6d;
+        font-size: 23px;
+        text-decoration: none;
+        padding: 17px 30px;
+        border-radius: 7px;color: white;}
+    .a1{position: relative;
+        top: 170px;
+        left: 40px;}
+    .dropone ul li a{text-decoration: none;color: black;}
+    .a2{position: relative;
+        left:880px;
+        top: 170px;}
+    .centercontent{background-color: #d4eee1;
+        width: 1148px;
+        height: 427px;
+        position: relative;
+        top: 240px;
+        left: 0px;
+        font-size: 20px;
+        padding-left: 50px;
+        padding-top: 40px;}
+        .htags{position: relative;
+            top: 260px;
+            left: 50px;}
+    .htags h1{font-size: 40px;font-weight: 100;}      
+    .htags p{font-size: 20px;}  
+
+    
+    
+    
+    
+    

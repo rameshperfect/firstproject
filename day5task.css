@@ -1,0 +1,4 @@
+.m,.n,.b{height: 100px;width: 100px;background: linear-gradient(to right,red,blue,yellow);border: 2px solid red;}
+.m{position:relative;left: 50px;top: 40px;z-index:0 ;}
+.n{position: absolute;left: 80px;top: 90px;z-index: -1;}
+.b{position: absolute;left: 100px;top: 140px;z-index: -2;}

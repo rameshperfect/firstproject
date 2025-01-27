@@ -1,0 +1,9 @@
+.mm{border: 10px dashed blue;height: 320px; width: 300px;margin:auto;margin-top: 11px;padding: 20px;}
+*{background-image: url(./pexels-maxandrey-1366630.jpg)};
+background-size: 100px 100px;
+background-position: 750px 30px ;
+background-repeat: no-repeat;
+
+
+ background-clip:text;color:transparent;
+.oo{text-align: center;}

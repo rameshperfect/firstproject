@@ -1,0 +1,4 @@
+.head{height: 200px;width: 200px;background-color: pink;position: relative;left: 490px;top: 190px;}
+.one{height: 50px;width: 50px;background-color: orange;position: absolute;right:80px;top: 25px;}
+.two{height: 50px;width: 50px;background-color: #031403e7;left: 50px;top: 30px;}
+.three{height: 50px;width: 50px;background-color: brown;left: 50px;top: 50px;}
